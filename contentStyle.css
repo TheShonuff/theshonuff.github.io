@@ -150,6 +150,11 @@ main:not(#work) #work{
         width:90%;
         color:#fff;
     }
+    .someContent {
+        margin-top:150px;
+        padding-left:10%;
+        width: 80%;
+    }
 }
 
 .experience {
