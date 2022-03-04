@@ -86,7 +86,7 @@ input[type=checkbox]{
 /*HAMBURGER MENU*/
 .hamburger {
  display: none;
- font-size: 24px;
+ font-size: 35px;
  user-select: none;
 }
 /* APPLYING MEDIA QUERIES */
@@ -117,7 +117,7 @@ input[type=checkbox]:checked ~ .menu{
 
 .hamburger {
  display: block;
- font-size: 35px;
+ font-size: 40px;
  padding-right: 20px;
 }
 
