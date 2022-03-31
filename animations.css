@@ -10,23 +10,23 @@
 }
 
 .scrolled.slide-left {
-  animation: slide-in-left 1s ease-in-out both;
+  animation: slide-in-left 0.7s ease-in-out both;
 }
 
 .scrolled.fade-in {
-  animation: fade-in 1s ease-in-out both;
+  animation: fade-in 0.7s ease-in-out both;
 }
 
 .scrolled.fade-bottom {
-  animation: fade-in-bottom 1s ease-in-out both;
+  animation: fade-in-bottom 0.7s ease-in-out both;
 }
 .scrolled.fade-bottom-long {
-  animation: fade-in-bottom 1s ease-in-out both;
+  animation: fade-in-bottom 0.7s ease-in-out both;
   animation-delay: 0.2s;
 }
 
 .scrolled.slide-right {
-  animation: slide-in-left 1s ease-in-out both;
+  animation: slide-in-left 0.7s ease-in-out both;
 }
 
 .greeting.slide-left {
