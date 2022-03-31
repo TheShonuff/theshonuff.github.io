@@ -1,251 +1,222 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 #home {
-    margin-top:0px;
+  margin-top: 0px;
 }
 
-
-#about{
- 
+#about {
 }
 
-main:not(#about) #about{
-    border-top: 100px solid transparent;
-    margin-top: -94px;
+main:not(#about) #about {
+  border-top: 100px solid transparent;
+  margin-top: -94px;
 }
 
-main:not(#home) #home{
-    border-top: 100px solid transparent;
-    margin-top: -94px;
+main:not(#home) #home {
+  border-top: 100px solid transparent;
+  margin-top: -94px;
 }
 
-main:not(#work) #work{
-    border-top: 100px solid transparent;
-    margin-top: -94px;
+main:not(#work) #work {
+  border-top: 100px solid transparent;
+  margin-top: -94px;
 }
 
-
-#aboutContainer{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    justify-content: left;
+#aboutContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
 }
 
-#work{
-    width: 90%;
-    display: block;
-    flex-direction: row;
-    flex-wrap:wrap;
-    justify-content: left;
-    margin-bottom: 300px;
-
+#work {
+  width: 90%;
+  display: block;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-bottom: 300px;
+  margin-top: 200px;
 }
 
-
-.someContent {
-    margin-top:150px;
-    padding-left:10%;
+.introduction {
+  margin-top: 200px;
+  padding-left: 10%;
+  width: 80%;
 }
 
-.intro {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: calc(40px + 10vmin);
-    font-weight: 700;
-    color: #F4A261;
-    width: 80%;
-    display: flexbox;
-    
+.greeting {
+  font-family: "Fira Sans", sans-serif;
+  font-size: calc(40px + 10vmin);
+  font-weight: 700;
+  color: #f4a261;
+  margin: 0;
+  padding: 0;
+}
+
+.name {
+  font-family: "Fira Sans", sans-serif;
+  font-size: calc(40px + 10vmin);
+  font-weight: 700;
+  color: #e9c46a;
+  margin-top: 0;
+  padding: 0;
 }
 
 .intro-description {
-    display: flexbox;
-    flex-wrap: wrap;
-    font-family: 'Fira Sans', sans-serif;
-    font-size: calc(15px + 2vmin);
-    font-weight: 400;
-    padding-left: 2%;
-    width:80%;
-    color:#fff;
+  font-family: "Fira Sans", sans-serif;
+  font-size: calc(15px + 2vmin);
+  font-weight: 400;
+  padding-left: 2%;
+  color: #fff;
 }
 
 .clear {
-    clear: both;
+  clear: both;
 }
 
-.somespace{
-    height:500px;
-    position:static;
-    padding-top: 300px;
-    display: block;
+.somespace {
+  height: 200px;
+  position: static;
+  padding-top: 300px;
+  display: block;
 }
 
-
+.project-space {
+  height: 100px;
+  position: static;
+  margin-top: 200px;
+  display: block;
+}
 
 .aboutTitle {
-    font-family: 'Fira Sans', sans-serif;
-    height:auto;
-    font-size: calc(40px + 10vmin);
-    font-weight: 700;
-    color: #F4A261;
-    padding-left: 10%;
-    padding-bottom: 50px;
+  font-family: "Fira Sans", sans-serif;
+  height: auto;
+  font-size: calc(40px + 10vmin);
+  font-weight: 700;
+  color: #f4a261;
+  padding-left: 10%;
+  padding-bottom: 50px;
 }
 
 .skills {
-    font-family: 'Fira Sans', sans-serif;
-    padding-left:0px;
-    color:#264653;
-    font-weight: 700;
-    font-size: calc(30px + 3vmin);
-    display: inline-block;
-    
-    width: 200px;
+  font-family: "Fira Sans", sans-serif;
+  padding-left: 0px;
+  color: #264653;
+  font-weight: 700;
+  font-size: calc(30px + 3vmin);
+  display: inline-block;
 
+  width: 200px;
 }
 .skillContainer {
-    display: inline-block;
-    width: auto;
-    height: auto;
-    padding-left: 5%;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding-left: 5%;
 }
 
 .skillslist {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: calc(20px + 1vmin);
-    color: #fff;
-    width:300px;
+  font-family: "Fira Sans", sans-serif;
+  font-size: calc(20px + 1vmin);
+  color: #fff;
+  width: 300px;
 }
 
-#experienceContainer{
-    display: inline-block;
-    width:50%;
-    height:auto;
-    padding-left: 5%;
-}
-
-@media (max-width: 600px) {
-    #experienceContainer {
-        width: 90%;
-    }
-    
-    .intro {
-        font-family: 'Fira Sans', sans-serif;
-        font-size: calc(40px + 10vmin);
-        font-weight: 700;
-        color: #F4A261;
-        width: 80%;
-        display: flexbox;
-        
-    }
-
-    .intro-description {
-        font-family: 'Fira Sans', sans-serif;
-        font-size: 20px;
-        font-weight: 400;
-        padding-left: 2%;
-        width:90%;
-        color:#fff;
-    }
-    .someContent {
-        margin-top:150px;
-        padding-left:10%;
-        width: 80%;
-    }
+#experienceContainer {
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  padding-left: 5%;
 }
 
 .experience {
-    font-family: 'Fira Sans', sans-serif;
-    color:#264653;
-    font-weight: 700;
-    font-size: calc(30px + 3vmin);
-    padding-bottom: 10px;
-    padding-left: 1%;
-    width:auto;
+  font-family: "Fira Sans", sans-serif;
+  color: #264653;
+  font-weight: 700;
+  font-size: calc(30px + 3vmin);
+  padding-bottom: 10px;
+  padding-left: 1%;
+  width: auto;
 }
 
 /* Resume Items*/
 .ritem {
-    padding-left: 2em;
-    width: auto;
+  padding-left: 2em;
+  width: auto;
 }
 
 .rplace {
-    font-family: 'Fira Sans', sans-serif;
-    color:#F4A261;
-    font-size: calc(20px + 1vmin);
-    font-weight: 700;
-    padding-right: 10px;
-    display: inline-block;
-
-
+  font-family: "Fira Sans", sans-serif;
+  color: #f4a261;
+  font-size: calc(20px + 1vmin);
+  font-weight: 700;
+  padding-right: 10px;
+  display: inline-block;
 }
 
-.rplace:hover {
-    font-style: italic;
-    transition: .7s ease;
-	transform: translateX(10px);
+span.rplace:hover {
+  font-style: italic;
+  transition: 0.7s ease;
+  transform: translateX(10px);
 }
 
 .rdate {
-    font-family: 'Fira Sans', sans-serif;
-    padding-left: 20px;
-    display: block;
-    color:#E9C46A;
-    font-size: calc(15px + 1vmin);
-    font-weight: 500;
+  font-family: "Fira Sans", sans-serif;
+  padding-left: 20px;
+  display: block;
+  color: #e9c46a;
+  font-size: calc(15px + 1vmin);
+  font-weight: 500;
 }
 
 .ritem p {
-    font-family: 'Fira Sans', sans-serif;
-    padding-left: 10px;
-    font-size: calc(8px +1vmin);
-    color: #fff;
-    width:auto;
+  font-family: "Fira Sans", sans-serif;
+  padding-left: 10px;
+  font-size: calc(8px +1vmin);
+  color: #fff;
+  width: auto;
 }
 
 .workTitle {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: calc(40px + 10vmin);
-    font-weight: 700;
-    color: #F4A261;
-    padding-left: 10%;
-    padding-bottom: 50px;
-    display: block;
+  font-family: "Fira Sans", sans-serif;
+  font-size: calc(40px + 10vmin);
+  font-weight: 700;
+  color: #f4a261;
+  padding-left: 10%;
+  padding-bottom: 50px;
+  display: block;
 }
 
 .projectTitle {
-    font-family: 'Fira Sans', sans-serif;
-    color: #E9C46A;
-    display: block;
-    font-size: calc(30px + 3vmin);
-    font-weight: 700;
-    padding-left: 10%;
-    margin-bottom: 0px;
-    padding-bottom: 10px;
+  font-family: "Fira Sans", sans-serif;
+  color: #e9c46a;
+  display: block;
+  font-size: calc(30px + 3vmin);
+  font-weight: 700;
+  padding-left: 10%;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
 }
 
 .projectTitle:hover {
-    font-style: italic;
-    transition: .7s ease;
-	transform: translateX(10px);
+  font-style: italic;
+  transition: 0.7s ease;
+  transform: translateX(10px);
 }
 
 .pdesc {
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 400;
-    font-size: calc(15px + 3vmin);
-    padding-left: 15%;
-    color: #fff;
-    display: block;
-    margin-top: 0px;
-    padding-top: 5px;
-    width:90%;
-}
-.yellow {
-    color: #E9C46A ;
-    
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: calc(13px + 2vmin);
+  padding-left: 15%;
+  color: #fff;
+  display: block;
+  margin-top: 0px;
+  padding-top: 5px;
+  width: 90%;
+  margin-bottom: 50px;
 }
