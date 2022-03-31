@@ -305,6 +305,10 @@
     margin-left: 0;
   }
 
+  ul.nav-links {
+    padding-inline-start: 0px;
+  }
+
   ul {
     -moz-column-count: 2;
     -moz-column-gap: 20px;
