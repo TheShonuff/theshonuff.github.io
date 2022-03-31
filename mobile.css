@@ -215,6 +215,232 @@
     padding-left: 5%;
   }
 }
+@media only screen and (max-width: 430px) {
+  #experienceContainer {
+    width: 90%;
+  }
+
+  .greeting {
+    font-family: "Fira Sans", sans-serif;
+    font-size: calc(25px + 5vmin);
+    font-weight: 700;
+    color: #f4a261;
+    width: 80%;
+    display: flexbox;
+  }
+
+  .intro-description {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 2%;
+    width: 90%;
+    color: #fff;
+    word-wrap: break-word;
+  }
+  .introduction {
+    margin-top: 120px;
+    padding-left: 10%;
+    width: 90%;
+  }
+
+  .name {
+    font-family: "Fira Sans", sans-serif;
+    font-size: calc(25px + 5vmin);
+    font-weight: 700;
+    color: #e9c46a;
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .somespace {
+    height: 100px;
+    position: static;
+    padding-top: 150px;
+    display: block;
+  }
+
+  .experience {
+    font-family: "Fira Sans", sans-serif;
+    color: #264653;
+    font-weight: 700;
+    font-size: calc(30px + 3vmin);
+    padding-bottom: 10px;
+    padding-left: 15px;
+    width: auto;
+  }
+  #aboutContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+
+  .skills {
+    font-family: "Fira Sans", sans-serif;
+    color: #264653;
+    font-weight: 700;
+    font-size: calc(30px + 3vmin);
+    display: inline-block;
+    width: 200px;
+  }
+  .skillContainer {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+  }
+
+  .skillslist {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    width: 300px;
+  }
+
+  #experienceContainer {
+    display: inline-block;
+    width: 90%;
+    height: auto;
+    padding-left: 5%;
+  }
+
+  /* Resume Items*/
+  .ritem {
+    padding-left: 20px;
+    width: auto;
+  }
+
+  .rplace {
+    font-family: "Fira Sans", sans-serif;
+    color: #f4a261;
+    font-size: calc(20px + 1vmin);
+    font-weight: 700;
+    padding-right: 10px;
+    display: inline-block;
+  }
+
+  span.rplace:hover {
+    font-style: italic;
+    transition: 0.7s ease;
+    transform: translateX(10px);
+  }
+
+  .rdate {
+    font-family: "Fira Sans", sans-serif;
+    padding-left: 20px;
+    display: block;
+    color: #e9c46a;
+    font-size: calc(15px + 1vmin);
+    font-weight: 500;
+  }
+
+  .ritem p {
+    font-family: "Fira Sans", sans-serif;
+    padding-left: 10px;
+    font-size: calc(8px +1vmin);
+    color: #fff;
+    width: auto;
+  }
+
+  .workTitle {
+    font-family: "Fira Sans", sans-serif;
+    font-size: calc(40px + 10vmin);
+    font-weight: 700;
+    color: #f4a261;
+    padding-left: 10%;
+    padding-bottom: 50px;
+    display: block;
+  }
+
+  .projectTitle {
+    font-family: "Fira Sans", sans-serif;
+    color: #e9c46a;
+    display: block;
+    font-size: calc(25px + 3vmin);
+    font-weight: 700;
+    padding-left: 10%;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+  }
+
+  .projectTitle:hover {
+    font-style: italic;
+    transition: 0.7s ease;
+    transform: translateX(10px);
+  }
+
+  .pdesc {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: calc(13px + 2vmin);
+    padding-left: 15%;
+    color: #fff;
+    display: block;
+    margin-top: 0px;
+    padding-top: 5px;
+    width: 90%;
+    margin-bottom: 50px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  #home {
+    margin-top: 0px;
+  }
+
+  #about {
+  }
+
+  main:not(#about) #about {
+    border-top: 100px solid transparent;
+    margin-top: -94px;
+  }
+
+  main:not(#home) #home {
+    border-top: 100px solid transparent;
+    margin-top: -94px;
+  }
+
+  main:not(#work) #work {
+    border-top: 100px solid transparent;
+    margin-top: -94px;
+  }
+
+  #work {
+    width: 90%;
+    display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-bottom: 300px;
+    margin-top: 200px;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  .project-space {
+    height: 50px;
+    position: static;
+    margin-top: 50px;
+    display: block;
+  }
+
+  .aboutTitle {
+    font-family: "Fira Sans", sans-serif;
+    height: auto;
+    font-size: calc(40px + 10vmin);
+    font-weight: 700;
+    color: #f4a261;
+    padding-left: 10%;
+    padding-bottom: 50px;
+  }
+}
 
 @media only screen and (max-width: 400px) {
   #experienceContainer {
