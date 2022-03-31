@@ -28,7 +28,7 @@ const hideScrollElement = (element) => {
 
 const handleScrollAnimation = () => {
   scrollElements.forEach((el) => {
-    if (elementInView(el, 70)) {
+    if (elementInView(el, 60)) {
       displayScrollElement(el);
     } else {
       hideScrollElement(el);

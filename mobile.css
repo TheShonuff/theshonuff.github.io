@@ -13,7 +13,7 @@
   }
   .introduction {
     margin-top: 120px;
-    padding-left: 10%;
+    padding-left: 5%;
     width: 80%;
   }
   .greeting {
@@ -222,10 +222,10 @@
 
   .greeting {
     font-family: "Fira Sans", sans-serif;
-    font-size: calc(25px + 5vmin);
+    font-size: 60px;
     font-weight: 700;
     color: #f4a261;
-    width: 80%;
+    width: 90%;
     display: flexbox;
   }
 
@@ -233,20 +233,19 @@
     font-family: "Fira Sans", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    padding-left: 2%;
+    padding-left: 1%;
     width: 90%;
     color: #fff;
     word-wrap: break-word;
   }
   .introduction {
     margin-top: 120px;
-    padding-left: 10%;
-    width: 90%;
+    width: 98%;
   }
 
   .name {
     font-family: "Fira Sans", sans-serif;
-    font-size: calc(25px + 5vmin);
+    font-size: 60px;
     font-weight: 700;
     color: #e9c46a;
     margin-top: 0;
@@ -256,7 +255,7 @@
   .somespace {
     height: 100px;
     position: static;
-    padding-top: 150px;
+    padding-top: 250px;
     display: block;
   }
 
@@ -319,12 +318,6 @@
     font-weight: 700;
     padding-right: 10px;
     display: inline-block;
-  }
-
-  span.rplace:hover {
-    font-style: italic;
-    transition: 0.7s ease;
-    transform: translateX(10px);
   }
 
   .rdate {
