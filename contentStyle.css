@@ -70,7 +70,7 @@ main:not(#work) #work {
   font-family: "Fira Sans", sans-serif;
   font-size: calc(15px + 2vmin);
   font-weight: 400;
-  padding-left: 2%;
+  width: 800px;
   color: #fff;
 }
 
